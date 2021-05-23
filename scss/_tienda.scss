@@ -1,0 +1,211 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.carousel-control-next-icon {
+    background-image: url(../imagenes/puntader.png);
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 12%;
+    color:#f8f3b1;
+    text-align: center;
+    transition: opacity 0.10s ease;
+}
+.carousel-control-prev-icon {
+    background-image: url(../imagenes/puntaizq.png);
+}
+#carrusel1, #carrusel2, #carrusel3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 2rem 0rem 2rem;
+}
+#carrusel4, #carrusel5, #carrusel6, #carrusel7, #carrusel8, #carrusel9, #carrusel10, #carrusel11, #carrusel12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 2rem 0rem 2rem;
+}
+#carrusel13, #carrusel14, #carrusel15 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 2rem 0rem 2rem;
+}
+.piearticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "monserrat";
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.piearticle__bottom {
+    @include sizes (12rem, 4rem);
+    border-radius: 1rem;
+    border: solid 0.2rem;
+    border-color: #26cf11;
+    background-color: black;
+    color: #f8f3b1;
+    font-size: 2rem;
+    margin: 1rem;
+    transition: all 0.5s;
+}
+.piearticle__bottom:hover {
+    @include sizes (13rem, 5rem);
+}
+section {
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        width: 100%;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .carousel-control-next-icon {
+        background-image: url(../imagenes/puntader.png);
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 8%;
+    }
+    .carousel-control-prev-icon {
+        background-image: url(../imagenes/puntaizq.png);
+    }
+    #carrusel1, #carrusel2, #carrusel3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12rem 1rem 0rem 1rem;
+    }
+    #carrusel4, #carrusel5, #carrusel6, #carrusel7, #carrusel8, #carrusel9, #carrusel10, #carrusel11, #carrusel12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 1rem 0rem 1rem;
+    }
+    #carrusel13, #carrusel14, #carrusel15 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 1rem 0rem 1rem;
+    }
+    .piearticle {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: "monserrat";
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .piearticle__bottom {
+        @include sizes (12rem, 3rem);
+        border-radius: 1rem;
+        border: solid 0.2rem;
+        border-color: #26cf11;
+        background-color: black;
+        color: #f8f3b1;
+        font-size: 1.5rem;
+        margin: 1rem;
+        transition: all 0.5s;
+    }
+    .piearticle__bottom:hover {
+        @include sizes (13rem, 4rem);
+    }
+    section {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 92%;
+        padding-right: 0.1rem;
+        padding-left: 0.1rem;
+    }
+    .carousel-control-next-icon {
+        background-image: url(../imagenes/puntader.png);
+        width: 1.5rem;
+        height: 1rem;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 4%;
+    }
+    .carousel-control-prev-icon {
+        background-image: url(../imagenes/puntaizq.png);
+        width: 1.5rem;
+        height: 1rem;
+    }
+    .col-4 {
+        position: relative;
+        width: 100%;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .row {
+        display: none;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -1rem;
+        margin-left: -1rem;
+    }
+    #carrusel1, #carrusel2, #carrusel3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 6rem 1rem 0rem 1rem;
+    }
+    #carrusel4, #carrusel5, #carrusel6, #carrusel7, #carrusel8, #carrusel9, #carrusel10, #carrusel11, #carrusel12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 1rem 0rem 1rem;
+    }
+    #carrusel13, #carrusel14, #carrusel15 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 1rem 0rem 1rem;
+    }
+    .piearticle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "monserrat";
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .piearticle__bottom {
+        @include sizes (6rem, 2rem);
+        border-radius: 1rem;
+        border: solid 0.2rem;
+        border-color: #26cf11;
+        background-color: black;
+        color: #f8f3b1;
+        font-size: 0.8rem;
+        margin: 1rem;
+        transition: all 0.5s;
+    }
+    .piearticle__bottom:hover {
+        @include sizes (7rem, 3rem);
+    }
+    section {
+        margin-bottom: 3rem;
+    }
+}

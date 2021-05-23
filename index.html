@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artista independiente, pinto cuadros en acrílico a mano, originales y coloridos, que dan un toque único y vibrante a cualquier ambiente.">
+    <meta name="keywords" content="arte, cuadros, decoracion, diseño, colores, bastidores, acrílicos, originales, creatividad, espacios únicos.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>SVN - Arte en colores - INICIO - Cuadros pintados a mano</title> 
+</head>
+
+<body>
+   
+    <header id="arriba" class="headerindex"> 
+
+        <div class="tituloysubt">
+            <!--Título principal-->                      
+            <h1 class="tituloysubt__titulo">SVN</h1> 
+            <!--Subtítulo principal-->
+            <h2 class="tituloysubt__h2 animate__animated animate__zoomIn">ARTE EN COLORES</h2> 
+        </div>
+
+        <!--Menú de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="menu__lista animate__animated animate__bounceInDown navbar-nav">
+                    <li class="nav-item active">
+                    <a class="nav-link menu__items" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link menu__items" href="paginas/quiensoy.html">QUIÉN SOY</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link menu__items" href="paginas/producto.html">PRODUCTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu__items" href="paginas/tienda.html">TIENDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu__items" href="paginas/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div>
+            <form class="alcostado__barra"> <!--Barra buscadora de la página-->             
+                    <input type="search" name="barradebusqueda" id="barradebusqueda" placeholder="Buscar">
+                    <label for="barradebusqueda"><img src="imagenes/lupa.png" alt="iconobusqueda"></label>
+            </form>   
+            <div class="alcostado__carrito"> <!--Ícono de carrito de compras-->
+                <a href="" target="_blank"><img src="imagenes/carritocompras.png" alt="carritocompras"></a>
+            </div>
+            <div class="alcostado__img"> <!--Íconos de redes sociales, enlaces-->
+                <a href="http://www.instagram.com/svn.arteencolores" target="_blank"><img class="insta-icon" src="imagenes/instagramnegro.png" alt="instagram"></a>
+                <a href="http://www.facebook.com/arteencolores.svn" target="_blank"><img class="face-icon" src="imagenes/facebooknegro.png" alt="facebook"></a>
+            </div>
+        </div>      
+
+    </header>
+    
+    <main> 
+
+        <!--CARRUSEL con imágenes de cuadros destacados-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">   
+
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="imgmain img-fluid rounded-lg" src="imagenes/cuadro3.jpg" alt="imagen1">
+                </div>
+                <div class="carousel-item">
+                    <img class="imgmain img-fluid rounded-lg" src="imagenes/cuadro4.jpg" alt="imagen2"> 
+                </div>
+                <div class="carousel-item">
+                    <img class="imgmain img-fluid rounded-lg" src="imagenes/cuadro1.jpg" alt="imagen3">
+                </div>
+                <div class="carousel-item">
+                    <img class="imgmain img-fluid rounded-lg" src="imagenes/cuadro2.jpg" alt="imagen4"> 
+                </div>
+                <div class="carousel-item">
+                    <img class="imgmain img-fluid rounded-lg" src="imagenes/cuadro5.jpg" alt="imagen5">
+                </div>
+            </div>
+
+        </div>
+
+        <!--Lema de mi emprendimiento-->      
+        <div class="container">
+            <q class="animate_animated animate__pulse">La magia de imaginar y crear sólo se logra imaginando y creando</q>
+        </div>
+       
+    </main>
+
+    <footer class="colorpiepag container-fluid">
+
+        <!--Referencia a envíos, forma de pago y sitio seguro-->
+        <div class="footer1"> 
+            <img src="imagenes/camion.png" alt="camión"> <small>ENVÍOS A TODO EL PAÍS</small>
+            <img src="imagenes/tarjetadecredito.png" alt="tarjeta de crédito"> <small>HASTA 6 CUOTAS</small>
+            <img src="imagenes/candadocerrado.png" alt="candado cerrado"> <small>SITIO SEGURO</small>
+        </div>
+        
+        <!--Redes sociales y atajo para enviar un correo electrónico-->
+        <div class="footer2"> 
+            <h3 class="footer2__h3">Seguime y contactame:</h3>
+                <div> 
+                    <a href="http://www.instagram.com/svn.arteencolores" target="_blank"><img class="instagram-icon" src="imagenes/instagramcolor.png" alt="instagram"></a>  
+                    <a href="https://www.facebook.com/arteencolores.svn" target="_blank"><img class="facebook-icon"src="imagenes/facebookcolor.png" alt="facebook"></a>
+                    <a href="mailto:arteencolores123@gmail.com"><img class="correo-icon" src="imagenes/arrobacolor.png" alt="correoelectronico"></a>
+                </div>
+        </div>
+
+        <!--Botón para ir al principio de la página-->
+        <div class="footer2__a--a"> <a href="#arriba"><img src="imagenes/flechaarriba.png" alt="subir"></a> </div>
+
+        <!--Ubicación-->
+        <div class="ubicacion"> 
+            <a href="https://www.google.com/maps/place/San+Francisco,+C%C3%B3rdoba/@-31.4231819,-62.1282483,13z/data=!3m1!4b1!4m5!3m4!1s0x95cb28228bc1d067:0x8f04abfe8c3700f4!8m2!3d-31.4249992!4d-62.0841599" target="_blank"><img src="imagenes/localizacion.png" alt="localizacion"></a>
+            <p> De San Francisco para todo el mundo!!!</p>
+            <img src="imagenes/planeta.png" alt="planeta">
+        </div>
+
+        <!--Copyrigh-->
+        <div id="copyright"> &copy; 2021 - Página creada por Savi - Todos los derechos reservados </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

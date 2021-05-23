@@ -1,0 +1,157 @@
+.sectionquiensoy1 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 12rem;
+}
+.sectionquiensoy1 img {
+    @include sizes (32rem, 50rem);
+    margin: 2rem;
+    transition: all 1s;
+}
+.sectionquiensoy1 img:hover {
+    @include sizes (36rem, 54rem);
+}
+.sectionquiensoy1 .texto {
+    display: flex;
+    flex-direction: column;
+    font-family: "extralight";
+    font-weight: bold;
+    font-size: 1.9rem;
+    align-items: flex-start;
+    text-align: justify;
+    margin-right: 2rem;
+}    
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.sectionquiensoy2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+}
+.sectionquiensoy2 .sectionquiensoy2__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+.sectionquiensoy2 .sectionquiensoy2__img img {   
+    @include sizes (38rem, 38rem);
+}
+.sectionquiensoy2 .sectionquiensoy2__img small {   
+    font-family: "extralight";
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@media (max-width: 768px) {
+    .sectionquiensoy1 {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin-top: 8rem;
+    }
+    .sectionquiensoy1 img {
+        @include sizes (36rem, 44rem);
+        margin: 1rem;
+        transition: all 1s;
+    }
+    .sectionquiensoy1 img:hover {
+        @include sizes (36rem, 45rem);
+    }
+    .sectionquiensoy1 .texto {
+        display: flex;
+        flex-direction: column;
+        font-family: "extralight";
+        font-weight: bold;
+        font-size: 1.2rem;
+        align-items: flex-start;
+        text-align: justify;
+    }    
+    p {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .sectionquiensoy2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .sectionquiensoy2 .sectionquiensoy2__img {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 1rem 0rem;
+    }
+    .sectionquiensoy2 .sectionquiensoy2__img img {   
+        @include sizes (30rem, 30rem);
+    }
+    .sectionquiensoy2 .sectionquiensoy2__img small {   
+        font-family: "extralight";
+        font-weight: bold;
+        font-size: 1.8rem;
+        margin: 0.5rem 0rem;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@media (max-width: 576px) {
+    .sectionquiensoy1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        margin-top: 4rem;
+    }
+    .sectionquiensoy1 img {
+        @include sizes (15rem, 26rem);
+        margin: 1.5rem;
+    }
+    .sectionquiensoy1 img:hover {
+        @include sizes (16rem, 27rem);
+    }
+    .sectionquiensoy1 .texto {
+        display: flex;
+        flex-direction: column;
+        font-family: "extralight";
+        font-weight: bold;
+        font-size: 1rem;
+        align-items: flex-start;
+        text-align: justify;
+        margin: 0rem 1.5rem 0rem 1.5rem;
+    }    
+    p {
+        margin: 0.2rem;
+    }
+    .sectionquiensoy2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionquiensoy2 .sectionquiensoy2__img {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 1rem 0rem;
+    }
+    .sectionquiensoy2 .sectionquiensoy2__img img {   
+        @include sizes (26rem, 26rem);
+    }
+    .sectionquiensoy2 .sectionquiensoy2__img small {   
+        font-family: "extralight";
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 0.5rem 0rem;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+}
+

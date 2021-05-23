@@ -1,0 +1,310 @@
+.formcontacto {
+    background-image: url(../imagenes/fondoform.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    margin: 10rem 10rem 6rem 8rem;
+    padding: 1rem;
+}
+.formcontacto .formcontacto__secciones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #000000;
+    font-size: 2.5rem;
+    padding-left: 0.2rem;
+    margin: 1rem;
+}
+.formcontacto .formcontacto__secciones--divlabel {
+    font-size: 2rem;
+}
+.formcontacto .formcontacto__secciones--div input {
+    font-size: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1.5rem 0rem;
+}
+.formcontacto .formcontacto__secciones--div input:focus {
+    background-color: #faff03;
+}
+.formcontacto .formcontacto__secciones--edad {
+    font-size: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    margin: 1.5rem 0rem;
+}
+.formcontacto .formcontacto__secciones--edad:focus {
+    background-color: #faff03;
+}
+.formcontacto .formcontacto__secciones--items {
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+.formcontacto .formcontacto__secciones--input {   
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.formcontacto .formcontacto__secciones--input:hover{
+    @include sizes (2rem, 2rem);
+}
+.formcontacto textarea {
+    font-family: "monserrat";
+    font-size: 1.5rem;
+    @include sizes (46rem, 12rem);
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1.5rem 0.5rem;
+}
+.formcontacto textarea:focus {
+    background-color: #faff03;
+}
+.formcontacto .formcontacto__checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "monserrat";
+    font-weight: bolder;
+    margin: 0rem 2rem;
+}
+.formcontacto .formcontacto__checkbox input{
+    cursor: pointer;
+    transition: all 0.8s;
+    margin: 0rem 1rem;
+}
+.formcontacto .formcontacto__checkbox input:hover{
+    @include sizes (2rem, 2rem);
+}
+.formcontacto .formcontacto__boton {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.formcontacto .formcontacto__boton input {
+    @include sizes (15rem, 5rem);
+    border-radius: 1rem;
+    background-color: black;
+    color:#f8f3b1;
+    font-size: 2rem;
+    margin: 0rem 1rem;
+    transition: all 0.8s;
+}
+.formcontacto .formcontacto__boton input:hover {
+    @include sizes (16rem, 6rem);
+}
+.formcontacto__secciones--leg {
+    font-family: "monserrat";
+    font-size: 3rem; 
+    padding: 0;
+    margin: 1rem; 
+}
+
+@media (max-width: 768px) {
+    .formcontacto {
+        background-image: url(../imagenes/fondoformpeq.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-style: solid;
+        margin: 8rem 2rem 4rem 2rem;
+        padding: 1rem;
+    }
+    .formcontacto .formcontacto__secciones {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #000000;
+        font-size: 2rem;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .formcontacto .formcontacto__secciones--divlabel {
+        font-size: 2rem;
+    }
+    .formcontacto .formcontacto__secciones--div input {
+        font-size: 1.8rem;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        padding-left: 0.5rem;
+        margin: 1.5rem 0rem;
+    }
+    .formcontacto .formcontacto__secciones--div input:focus {
+        background-color: #faff03;
+    }
+    .formcontacto .formcontacto__secciones--edad {
+        font-size: 1.8rem;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        margin: 1.5rem 0rem;
+    }
+    .formcontacto .formcontacto__secciones--edad:focus {
+        background-color: #faff03;
+    }
+    .formcontacto .formcontacto__secciones--items {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .formcontacto .formcontacto__secciones--input {   
+        cursor: pointer;
+        transition: all 0.8s;
+    }
+    .formcontacto .formcontacto__secciones--input:hover{
+        @include sizes (1.5rem, 1.5rem);
+    }
+    .formcontacto textarea {
+        font-family: "monserrat";
+        font-size: 1.2rem;
+        @include sizes (38rem, 10rem);
+        background-color: #ffffff;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1.5rem 0.5rem;
+    }
+    .formcontacto textarea:focus {
+        background-color: #faff03;
+    }
+    .formcontacto .formcontacto__checkbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8rem;
+        margin: 0rem 2rem;
+    }
+    .formcontacto .formcontacto__checkbox input{
+        cursor: pointer;
+        transition: all 0.8s;
+        margin: 0rem 1rem;
+    }
+    .formcontacto .formcontacto__checkbox input:hover{
+        @include sizes (1.5rem, 1.5rem);
+    }
+    .formcontacto .formcontacto__boton {
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+    .formcontacto .formcontacto__boton input {
+        @include sizes (12rem, 3rem);
+        border-radius: 1rem;
+        background-color: black;
+        color:#f8f3b1;
+        font-size: 1.5rem;
+        margin: 0rem 1rem;
+        transition: all 0.8s;
+    }
+    .formcontacto .formcontacto__boton input:hover {
+        @include sizes (14rem, 5rem);
+    }
+    .formcontacto__secciones--leg {
+        font-family: "monserrat";
+        font-size: 2rem; 
+        padding: 0;
+        margin: 1rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    .formcontacto {
+        background-image: url(../imagenes/fondoformpeq.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-style: solid;
+        margin: 6rem 2rem 4rem 2rem;
+        padding: 1rem;
+    }
+    .formcontacto .formcontacto__secciones {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #000000;
+        font-size: 1.8rem;
+        padding-left: 0.2rem;
+        margin: 1rem;
+    }
+    .formcontacto .formcontacto__secciones--divlabel {
+        font-size: 1.5rem;
+    }
+    .formcontacto .formcontacto__secciones--div input {
+        font-size: 1.8rem;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        margin: 1.5rem 0rem;
+    }
+    .formcontacto .formcontacto__secciones--div input:focus {
+        background-color: #faff03;
+    }
+    .formcontacto .formcontacto__secciones--edad {
+        font-size: 1.5rem;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        margin: 1.5rem 0rem;
+    }
+    .formcontacto .formcontacto__secciones--edad:focus {
+        background-color: #faff03;
+    }
+    .formcontacto .formcontacto__secciones--items {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .formcontacto .formcontacto__secciones--input {   
+        cursor: pointer;
+        transition: all 0.8s;
+    }
+    .formcontacto .formcontacto__secciones--input:hover{
+        @include sizes (1.5rem, 1.5rem);
+    }
+    .formcontacto textarea {
+        font-family: "monserrat";
+        font-size: 1rem;
+        @include sizes (22rem, 8rem);
+        background-color: #ffffff;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1.5rem 0.2rem;
+    }
+    .formcontacto textarea:focus {
+        background-color: #faff03;
+    }
+    .formcontacto .formcontacto__checkbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        font-family: "monserrat";
+        font-weight: bolder;
+        margin: 0rem 2rem;
+    }
+    .formcontacto .formcontacto__checkbox input{
+        cursor: pointer;
+        transition: all 0.8s;
+        margin: 0rem 1rem;
+    }
+    .formcontacto .formcontacto__checkbox input:hover{
+     @include sizes (2rem, 2rem);
+    }
+    .formcontacto .formcontacto__boton {
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+    }
+    .formcontacto .formcontacto__boton input {
+        @include sizes (20rem, 4rem);
+        border-radius: 1rem;
+        background-color: black;
+        color:#f8f3b1;
+        font-size: 1.3rem;
+        margin: 0rem 1rem;
+        transition: all 0.8s;
+    }
+    .formcontacto .formcontacto__boton input:hover {
+        @include sizes (21rem, 5rem);
+    }
+    .formcontacto__secciones--leg {
+        font-family: "monserrat";
+        font-size: 2rem; 
+        padding: 0;
+        margin: 1rem; 
+    }
+}
